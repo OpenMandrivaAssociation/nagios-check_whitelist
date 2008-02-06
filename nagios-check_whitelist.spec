@@ -1,14 +1,16 @@
+%define _enable_debug_packages	%{nil}
+%define debug_package		%{nil}
+
 Summary:	Examine and manipulate SpamAssassin's auto-whitelist db
 Name:		nagios-check_whitelist
 Version:	0
-Release:	%mkrel 1
+Release:	%mkrel 2
 License:	Apache License
 Group:		Networking/Other
 URL:		http://www.apache.org/
 Source0:	http://svn.apache.org/repos/asf/spamassassin/trunk/tools/check_whitelist
 Source1:	check_whitelist.cfg
 Requires:	nagios
-BuildArch:	noarch
 BuildRoot:	%{_tmppath}/%{name}-buildroot
 
 %description
