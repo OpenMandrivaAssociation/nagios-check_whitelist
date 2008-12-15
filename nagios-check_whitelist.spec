@@ -17,9 +17,6 @@ BuildRoot:	%{_tmppath}/%{name}-%{version}
 %description
 Check or clean a SpamAssassin auto-whitelist (AWL) database file.
 
-The name of the file is specified after any options, as <dbfile>.
-The default is <\$HOME/.spamassassin/auto-whitelist>.
-
 %prep
 %setup -q -c -T
 
