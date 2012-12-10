@@ -51,3 +51,35 @@ rm -rf %{buildroot}
 %defattr(-,root,root)
 %config(noreplace) %{_sysconfdir}/nagios/plugins.d/check_whitelist.cfg
 %{_datadir}/nagios/plugins/check_whitelist
+
+
+%changelog
+* Sat Dec 11 2010 Oden Eriksson <oeriksson@mandriva.com> 0-7mdv2011.0
++ Revision: 620470
+- the mass rebuild of 2010.0 packages
+
+* Mon Sep 14 2009 Thierry Vignaud <tv@mandriva.org> 0-6mdv2010.0
++ Revision: 440231
+- rebuild
+
+  + Guillaume Rousse <guillomovitch@mandriva.org>
+    - description is not a usage guide
+
+* Mon Dec 15 2008 Guillaume Rousse <guillomovitch@mandriva.org> 0-5mdv2009.1
++ Revision: 314658
+- now a noarch package
+- use a herein document for configuration
+- reply on filetrigger for reloading nagios
+
+* Tue Jul 29 2008 Thierry Vignaud <tv@mandriva.org> 0-4mdv2009.0
++ Revision: 253543
+- rebuild
+
+* Wed Feb 06 2008 Oden Eriksson <oeriksson@mandriva.com> 0-2mdv2008.1
++ Revision: 163163
+- whoops!, it can't be a noarch package :-)
+- import nagios-check_whitelist
+
+
+* Wed Feb 06 2008 Oden Eriksson <oeriksson@mandriva.com> 0-1mdv2008.1
+- initial Mandriva package
