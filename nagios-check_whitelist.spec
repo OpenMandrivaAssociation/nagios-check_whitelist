@@ -4,7 +4,7 @@
 Summary:	Examine and manipulate SpamAssassin's auto-whitelist db
 Name:		nagios-check_whitelist
 Version:	0
-Release:	%mkrel 7
+Release:	8
 License:	Apache License
 Group:		Networking/Other
 URL:		http://www.apache.org/
