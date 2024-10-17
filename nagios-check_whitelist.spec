@@ -7,7 +7,7 @@ Version:	0
 Release:	8
 License:	Apache License
 Group:		Networking/Other
-URL:		http://www.apache.org/
+URL:		https://www.apache.org/
 Source0:	http://svn.apache.org/repos/asf/spamassassin/trunk/tools/check_whitelist
 Source1:	check_whitelist.cfg
 Requires:	nagios-plugins
